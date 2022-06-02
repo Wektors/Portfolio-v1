@@ -1,4 +1,55 @@
-main {
+body {
     font-family: monospace;
+    font-size: 16px;
+    padding: none;
+    margin: 0 0 0 0;
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 40px;
+    background-color: rgb(79, 24, 40);
+    height: 6vh;
+    position: fixed;
+    width: 100vw;
+    
+}
+
+.nav-link {
+    color: rgb(164, 164, 144);
+    padding: 2vw;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#welcome-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: rgb(164, 164, 144);
+    background-color: rgb(33, 51, 82);
+    height: 100vh;
+}
+
+#projects {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    font-size: 18px;
+    color: rgb(164, 164, 144);
+    background-color: rgb(26, 65, 65);
+    height: 100vh;
+}
+
+.project-header {
+    margin-top: 10vh;
     font-size: 30px;
+}
+
+#iframe {
+    height: 30vh;
+    width: 40vw;
 }
